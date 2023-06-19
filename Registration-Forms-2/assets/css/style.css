@@ -1,0 +1,242 @@
+.cards {
+	display: flex;
+	margin: 0 auto;
+	width: 1024px;
+	height: 695px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	background: linear-gradient(296.75deg, #FFFFFF 0.6%, #FAD4E4 99.59%);
+}
+
+.left-card {
+	width: 50%;
+	height: 695px;
+	/* background-image: url(../img/willowy-man-delivers-a-large-box-with-an-order-to-the-house-1_result_result.png); */
+	background-size: contain;
+}
+
+.card-img {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	position: absolute;
+	top: 100px;
+}
+
+.img {
+	width: 100%;
+	height: 600px;
+}
+
+.abc {
+	position: absolute;
+	top: 55px;
+	margin-left: 66px;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 60px;
+	letter-spacing: 0.02em;
+	color: #000000;
+}
+
+.right-card {
+	width: 50%;
+	height: 695px;
+}
+
+
+.card-header {
+	margin-top: 170px;
+}
+
+.header-h2 {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 27px;
+	line-height: 1px;
+	letter-spacing: 0.02em;
+	color: #000000;
+}
+
+.small-text-card {
+	margin-top: 100px;
+}
+
+.header-text {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 13px;
+	letter-spacing: 0.02em;
+	color: #8D8D8D;
+}
+
+.small-text {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	color: #8D8D8D;
+}
+
+.card-btn {
+	width: 85%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.btn {
+	width: 120px;
+	height: 120px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 0.02em;
+	color: #000000;
+	text-decoration: none;
+	border: 1px solid #AABBCC;
+	border-radius: 10px;
+	background-color: #FDEDF3;
+}
+
+.btn i {
+	font-size: 20px;
+}
+
+.white-btn {
+	background-color: #FDF3F7;
+}
+
+.btn:hover {
+	border: 2px solid #FA5D9E;
+	border-radius: 10px;
+}
+
+.card-sing {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin-top: 30px;
+}
+
+.sing-p {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	color: #000000;
+}
+
+.sing-a {
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	color: #FA5D9E;
+	padding-left: 7px;
+}
+
+.card-footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin-top: 65px;
+}
+
+.footer-p {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	color: #8D8D8D;
+}
+
+.footer-a {
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	color: #FA5D9E;
+	padding-left: 7px;
+}
+
+@media screen and (max-width: 720px) {
+	.cards {
+		display: flex;
+		margin: 0 auto;
+		width: 475px;
+		height: 675px;
+		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+		background: linear-gradient(296.75deg, #FFFFFF 0.6%, #FAD4E4 99.59%);
+	}
+
+	.left-card {
+		display: none;
+	}
+
+	.right-card .abc {
+		margin-left: 150px;
+	}
+
+	.right-card {
+		width: 475px;
+		height: 675px;
+	}
+
+	.card-header {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 150px;
+	}
+
+	.small-text-card {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 55px;
+
+	}
+
+	.card-btn {
+		margin-left: 35px;
+	}
+
+	.card-sing {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.card-footer {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+
+@media screen and (min-width: 720px) {
+	.right-card .abc {
+		display: none;
+
+	}
+}
